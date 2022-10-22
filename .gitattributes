@@ -3,7 +3,7 @@
 * text=auto
 *.HTML linguist-detectable=false
 *.css linguist-detectable=false
-
+*.js linguist-detectable=false
 
 # Explicitly declare text files we want to always be normalized and converted 
 # to native line endings on checkout.
