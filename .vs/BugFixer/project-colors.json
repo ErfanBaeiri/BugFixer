@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "6ef42d5e-c292-484c-b2f2-1b2d8f3b83c0": {
+      "ProjectGuid": "6ef42d5e-c292-484c-b2f2-1b2d8f3b83c0",
+      "DisplayName": "BugFixer.Web",
+      "ColorIndex": 0
+    },
+    "da7c63b1-7f0b-451f-a401-7def69f0a23d": {
+      "ProjectGuid": "da7c63b1-7f0b-451f-a401-7def69f0a23d",
+      "DisplayName": "BugFixer.Domain",
+      "ColorIndex": 1
+    },
+    "75f5af5d-474e-42a2-93f7-76fe5fa78e3d": {
+      "ProjectGuid": "75f5af5d-474e-42a2-93f7-76fe5fa78e3d",
+      "DisplayName": "BugFixer.DataLayer",
+      "ColorIndex": 2
+    },
+    "e3a7ee0e-79d1-4016-b4ee-ab35175b3135": {
+      "ProjectGuid": "e3a7ee0e-79d1-4016-b4ee-ab35175b3135",
+      "DisplayName": "BugFixer.Application",
+      "ColorIndex": 3
+    },
+    "47b1a47f-8891-46ee-8dfd-3ab0e0bc27dd": {
+      "ProjectGuid": "47b1a47f-8891-46ee-8dfd-3ab0e0bc27dd",
+      "DisplayName": "BugFixer.IoC",
+      "ColorIndex": 4
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 5
+}
