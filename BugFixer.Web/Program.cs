@@ -1,8 +1,16 @@
+using BugFixer.DataLayer.Context;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
+#region Services
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddDbContext<BugFixerDbContext>(options =>
+options.UseSqlServer(builder.Configuration.GetConnectionString("BugFixerConnection")));
+#endregion
 
+#region MiddleWares
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -25,3 +33,5 @@ app.MapControllerRoute(
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.Run();
+
+#endregion

@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Tolu\\Desktop\\BugFixer\\BugFixer.Application\\BugFixer.Application.csproj",
+      "projectUniqueName": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\BugFixer.Application\\BugFixer.Application.csproj",
       "projectName": "BugFixer.Application",
-      "projectPath": "C:\\Users\\Tolu\\Desktop\\BugFixer\\BugFixer.Application\\BugFixer.Application.csproj",
+      "projectPath": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\BugFixer.Application\\BugFixer.Application.csproj",
       "packagesPath": "C:\\Users\\Tolu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Tolu\\Desktop\\BugFixer\\BugFixer.Application\\obj\\",
+      "outputPath": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\BugFixer.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

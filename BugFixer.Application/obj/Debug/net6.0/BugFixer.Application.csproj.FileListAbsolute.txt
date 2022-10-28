@@ -20,3 +20,15 @@ D:\Learning\BugFixer\E02\E02\BugFixer\BugFixer.Application\obj\Debug\net6.0\BugF
 D:\Learning\BugFixer\E02\E02\BugFixer\BugFixer.Application\obj\Debug\net6.0\BugFixer.Application.dll
 D:\Learning\BugFixer\E02\E02\BugFixer\BugFixer.Application\obj\Debug\net6.0\ref\BugFixer.Application.dll
 D:\Learning\BugFixer\E02\E02\BugFixer\BugFixer.Application\obj\Debug\net6.0\BugFixer.Application.pdb
+C:\Users\Tolu\Documents\GitHub\BugFixer\BugFixer.Application\bin\Debug\net6.0\BugFixer.Application.deps.json
+C:\Users\Tolu\Documents\GitHub\BugFixer\BugFixer.Application\bin\Debug\net6.0\BugFixer.Application.dll
+C:\Users\Tolu\Documents\GitHub\BugFixer\BugFixer.Application\bin\Debug\net6.0\BugFixer.Application.pdb
+C:\Users\Tolu\Documents\GitHub\BugFixer\BugFixer.Application\obj\Debug\net6.0\BugFixer.Application.csproj.AssemblyReference.cache
+C:\Users\Tolu\Documents\GitHub\BugFixer\BugFixer.Application\obj\Debug\net6.0\BugFixer.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tolu\Documents\GitHub\BugFixer\BugFixer.Application\obj\Debug\net6.0\BugFixer.Application.AssemblyInfoInputs.cache
+C:\Users\Tolu\Documents\GitHub\BugFixer\BugFixer.Application\obj\Debug\net6.0\BugFixer.Application.AssemblyInfo.cs
+C:\Users\Tolu\Documents\GitHub\BugFixer\BugFixer.Application\obj\Debug\net6.0\BugFixer.Application.csproj.CoreCompileInputs.cache
+C:\Users\Tolu\Documents\GitHub\BugFixer\BugFixer.Application\obj\Debug\net6.0\BugFixer.Application.dll
+C:\Users\Tolu\Documents\GitHub\BugFixer\BugFixer.Application\obj\Debug\net6.0\refint\BugFixer.Application.dll
+C:\Users\Tolu\Documents\GitHub\BugFixer\BugFixer.Application\obj\Debug\net6.0\BugFixer.Application.pdb
+C:\Users\Tolu\Documents\GitHub\BugFixer\BugFixer.Application\obj\Debug\net6.0\ref\BugFixer.Application.dll
