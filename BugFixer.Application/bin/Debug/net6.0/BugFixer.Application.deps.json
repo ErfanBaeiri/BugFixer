@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {
       "BugFixer.Application/1.0.0": {
+        "dependencies": {
+          "BugFixer.Domain": "1.0.0"
+        },
         "runtime": {
           "BugFixer.Application.dll": {}
+        }
+      },
+      "BugFixer.Domain/1.0.0": {
+        "runtime": {
+          "BugFixer.Domain.dll": {}
         }
       }
     }
   },
   "libraries": {
     "BugFixer.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BugFixer.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

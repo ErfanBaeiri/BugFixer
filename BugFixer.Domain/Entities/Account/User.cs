@@ -21,6 +21,7 @@ namespace BugFixer.Domain.Entities.Account
         [MaxLength(20, ErrorMessage = "{نمی تواند بیشتر از {1} کاراکتر باشد {0")]
         public string? PhoneNumber { get; set; }
         [Display(Name = "ایمیل")]
+        [MaxLength(100, ErrorMessage = "{نمی تواند بیشتر از {1} کاراکتر باشد {0")]
         [EmailAddress(ErrorMessage = "ایمیل شما معتبر نمی باشد")]
         [Required(ErrorMessage = "لطفا {0} را وارد کنید")]
         public string Email { get; set; }

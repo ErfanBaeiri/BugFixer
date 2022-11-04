@@ -787,3 +787,7 @@ C:\Users\Tolu\Documents\GitHub\BugFixer\BugFixer.Web\bin\Debug\net6.0\BugFixer.D
 C:\Users\Tolu\Documents\GitHub\BugFixer\BugFixer.Web\bin\Debug\net6.0\BugFixer.DataLayer.pdb
 C:\Users\Tolu\Documents\GitHub\BugFixer\BugFixer.Web\bin\Debug\net6.0\BugFixer.Domain.dll
 C:\Users\Tolu\Documents\GitHub\BugFixer\BugFixer.Web\bin\Debug\net6.0\BugFixer.Domain.pdb
+C:\Users\Tolu\Documents\GitHub\BugFixer\BugFixer.Web\bin\Debug\net6.0\BugFixer.Application.dll
+C:\Users\Tolu\Documents\GitHub\BugFixer\BugFixer.Web\bin\Debug\net6.0\BugFixer.IoC.dll
+C:\Users\Tolu\Documents\GitHub\BugFixer\BugFixer.Web\bin\Debug\net6.0\BugFixer.Application.pdb
+C:\Users\Tolu\Documents\GitHub\BugFixer\BugFixer.Web\bin\Debug\net6.0\BugFixer.IoC.pdb

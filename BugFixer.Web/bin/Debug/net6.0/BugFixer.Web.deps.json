@@ -8,7 +8,9 @@
     ".NETCoreApp,Version=v6.0": {
       "BugFixer.Web/1.0.0": {
         "dependencies": {
+          "BugFixer.Application": "1.0.0",
           "BugFixer.DataLayer": "1.0.0",
+          "BugFixer.IoC": "1.0.0",
           "Microsoft.EntityFrameworkCore": "6.0.10",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.10",
           "Microsoft.EntityFrameworkCore.Tools": "6.0.10",
@@ -2255,6 +2257,14 @@
           "System.Xml.ReaderWriter": "4.3.0"
         }
       },
+      "BugFixer.Application/1.0.0": {
+        "dependencies": {
+          "BugFixer.Domain": "1.0.0"
+        },
+        "runtime": {
+          "BugFixer.Application.dll": {}
+        }
+      },
       "BugFixer.DataLayer/1.0.0": {
         "dependencies": {
           "BugFixer.Domain": "1.0.0",
@@ -2268,6 +2278,16 @@
       "BugFixer.Domain/1.0.0": {
         "runtime": {
           "BugFixer.Domain.dll": {}
+        }
+      },
+      "BugFixer.IoC/1.0.0": {
+        "dependencies": {
+          "BugFixer.Application": "1.0.0",
+          "BugFixer.DataLayer": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
+        },
+        "runtime": {
+          "BugFixer.IoC.dll": {}
         }
       }
     }
@@ -3489,12 +3509,22 @@
       "path": "system.xml.xdocument/4.3.0",
       "hashPath": "system.xml.xdocument.4.3.0.nupkg.sha512"
     },
+    "BugFixer.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "BugFixer.DataLayer/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
     "BugFixer.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BugFixer.IoC/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

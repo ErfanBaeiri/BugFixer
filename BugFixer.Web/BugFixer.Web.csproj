@@ -7,10 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="wwwroot\common\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.0" />
   </ItemGroup>
 
@@ -24,7 +20,9 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <ProjectReference Include="..\BugFixer.Application\BugFixer.Application.csproj" />
 	  <ProjectReference Include="..\BugFixer.DataLayer\BugFixer.DataLayer.csproj" />
+	  <ProjectReference Include="..\BugFixer.IoC\BugFixer.IoC.csproj" />
 	</ItemGroup>
 
 </Project>

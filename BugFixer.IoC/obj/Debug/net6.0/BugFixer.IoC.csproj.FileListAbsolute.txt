@@ -34,3 +34,10 @@ C:\Users\Tolu\Documents\GitHub\BugFixer\BugFixer.IoC\obj\Debug\net6.0\BugFixer.I
 C:\Users\Tolu\Documents\GitHub\BugFixer\BugFixer.IoC\obj\Debug\net6.0\refint\BugFixer.IoC.dll
 C:\Users\Tolu\Documents\GitHub\BugFixer\BugFixer.IoC\obj\Debug\net6.0\BugFixer.IoC.pdb
 C:\Users\Tolu\Documents\GitHub\BugFixer\BugFixer.IoC\obj\Debug\net6.0\ref\BugFixer.IoC.dll
+C:\Users\Tolu\Documents\GitHub\BugFixer\BugFixer.IoC\bin\Debug\net6.0\BugFixer.Application.dll
+C:\Users\Tolu\Documents\GitHub\BugFixer\BugFixer.IoC\bin\Debug\net6.0\BugFixer.DataLayer.dll
+C:\Users\Tolu\Documents\GitHub\BugFixer\BugFixer.IoC\bin\Debug\net6.0\BugFixer.Domain.dll
+C:\Users\Tolu\Documents\GitHub\BugFixer\BugFixer.IoC\bin\Debug\net6.0\BugFixer.Application.pdb
+C:\Users\Tolu\Documents\GitHub\BugFixer\BugFixer.IoC\bin\Debug\net6.0\BugFixer.DataLayer.pdb
+C:\Users\Tolu\Documents\GitHub\BugFixer\BugFixer.IoC\bin\Debug\net6.0\BugFixer.Domain.pdb
+C:\Users\Tolu\Documents\GitHub\BugFixer\BugFixer.IoC\obj\Debug\net6.0\BugFixer.IoC.csproj.CopyComplete

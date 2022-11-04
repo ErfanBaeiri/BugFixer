@@ -1,4 +1,5 @@
 using BugFixer.DataLayer.Context;
+using BugFixer.IoC;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -6,8 +7,13 @@ var builder = WebApplication.CreateBuilder(args);
 #region Services
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+#region DbContext
 builder.Services.AddDbContext<BugFixerDbContext>(options =>
 options.UseSqlServer(builder.Configuration.GetConnectionString("BugFixerConnection")));
+#endregion
+#region Register Dependencies
+DependencyContainer.RegisterDependencies(builder.Services);
+#endregion
 #endregion
 
 #region MiddleWares

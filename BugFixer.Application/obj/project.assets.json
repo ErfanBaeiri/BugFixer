@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "BugFixer.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/BugFixer.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BugFixer.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "BugFixer.Domain/1.0.0": {
+      "type": "project",
+      "path": "../BugFixer.Domain/BugFixer.Domain.csproj",
+      "msbuildProject": "../BugFixer.Domain/BugFixer.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "BugFixer.Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Tolu\\.nuget\\packages\\": {},
@@ -40,7 +59,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\BugFixer.Domain\\BugFixer.Domain.csproj": {
+              "projectPath": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\BugFixer.Domain\\BugFixer.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
