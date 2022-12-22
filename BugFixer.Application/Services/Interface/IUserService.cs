@@ -12,5 +12,9 @@ namespace BugFixer.Application.Services.Interface
         #region Register
         Task<RegisterResult> RegisterUser(RegisterViewModel register);
         #endregion
+
+        #region Login
+        Task<LoginResult> CheckUserForLogin(LoginViewModel login);
+        #endregion
     }
 }

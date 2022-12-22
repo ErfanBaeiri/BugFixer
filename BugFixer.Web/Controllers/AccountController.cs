@@ -1,4 +1,4 @@
-﻿using BugFixer.Application.Services.Interface;
+﻿using BugFixer.Application.Services.Interfaces;
 using BugFixer.Domain.ViewModels.Account;
 using Microsoft.AspNetCore.Mvc;
 
@@ -7,6 +7,7 @@ namespace BugFixer.Web.Controllers
     public class AccountController : BaseController
     {
         #region Ctor
+
         private readonly IUserService _userService;
 
         public AccountController(IUserService userService)
@@ -14,10 +15,11 @@ namespace BugFixer.Web.Controllers
             _userService = userService;
         }
 
-
         #endregion
+
         #region Login
-        [HttpGet("Login")]
+
+        [HttpGet("login")]
         public IActionResult Login()
         {
             return View();
@@ -26,13 +28,14 @@ namespace BugFixer.Web.Controllers
         #endregion
 
         #region Register
-        [HttpGet("Register")]
+
+        [HttpGet("register")]
         public IActionResult Register()
         {
             return View();
         }
 
-        [HttpPost("Register")]
+        [HttpPost("register")]
         public async Task<IActionResult> Register(RegisterViewModel register)
         {
             if (!ModelState.IsValid)
@@ -45,17 +48,15 @@ namespace BugFixer.Web.Controllers
             switch (result)
             {
                 case RegisterResult.EmailExists:
-                    TempData[ErrorMessage] = "ایمیل وارد شده ، موجود است";
+                    TempData[ErrorMessage] = "ایمیل وارد شده از قبل موجود است .";
                     break;
                 case RegisterResult.Success:
-                    TempData[SucessMessage] = "عملیات با موفقیت انجام شد";
-                    break;
+                    TempData[SuccessMessage] = "عملیات با موفقیت انجام شد .";
                     return RedirectToAction("Login", "Account");
             }
 
             return View(register);
         }
-
 
         #endregion
     }

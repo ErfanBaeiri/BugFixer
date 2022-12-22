@@ -14,6 +14,6 @@ namespace BugFixer.Domain.Entities.Common
 
         public DateTime CreateDate { get; set; } = DateTime.Now;
 
-        public bool IsDeleted { get; set; } = false;
+        public bool IsDelete { get; set; } = false;
     }
 }

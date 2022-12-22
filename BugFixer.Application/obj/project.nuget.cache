@@ -1,8 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "Vh8f6eU8MzV5mI8iR3nvuIVzLra48V57LNBVEqEl0ZHHgRviWosq3qQg9EQBF4edtITVtVuqD6zusKzXj3oRhQ==",
+  "dgSpecHash": "IgmfQK9MSZayXR9g2YPoFDKm9E0qaC+oHhHcnnlRVjdh3+AAUblwqwjJdhDTQxkaEMNP/375hWyuqhXMM/XI6w==",
   "success": true,
   "projectFilePath": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\BugFixer.Application\\BugFixer.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Tolu\\.nuget\\packages\\anglesharp\\0.17.1\\anglesharp.0.17.1.nupkg.sha512",
+    "C:\\Users\\Tolu\\.nuget\\packages\\anglesharp.css\\0.16.4\\anglesharp.css.0.16.4.nupkg.sha512",
+    "C:\\Users\\Tolu\\.nuget\\packages\\htmlsanitizer\\8.0.601\\htmlsanitizer.8.0.601.nupkg.sha512",
+    "C:\\Users\\Tolu\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\Tolu\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
+    "C:\\Users\\Tolu\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\Tolu\\.nuget\\packages\\system.text.encoding.codepages\\6.0.0\\system.text.encoding.codepages.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

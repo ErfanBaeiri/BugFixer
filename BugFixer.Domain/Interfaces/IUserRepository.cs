@@ -14,6 +14,5 @@ namespace BugFixer.Domain.Interfaces
         Task CreateUser(User user);
 
         Task Save();
-
     }
 }

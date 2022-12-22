@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "8AgeC4eb35RIy4pNlzcBjnHIYt1eKuVe0vbW/ZlSyaE=",
+  "Hash": "5JQ7E/5f5dbS0GiIP72+Hqg/g+qcHp2BOWXDjyTaVYU=",
   "Source": "BugFixer.Web",
   "BasePath": "_content/BugFixer.Web",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\BugFixer.Web\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BugFixer.Web.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\BugFixer.Web\\wwwroot\\common\\custom\\custom.css",
+      "SourceId": "BugFixer.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\BugFixer.Web\\wwwroot\\",
+      "BasePath": "_content/BugFixer.Web",
+      "RelativePath": "common/custom/custom.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\common\\custom\\custom.css"
     },
     {
       "Identity": "C:\\Users\\Tolu\\Documents\\GitHub\\BugFixer\\BugFixer.Web\\wwwroot\\common\\custom\\StyleSheet.css",

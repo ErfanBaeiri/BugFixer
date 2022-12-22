@@ -9,7 +9,10 @@
   <ItemGroup>
     <Folder Include="Extensions\" />
     <Folder Include="Convertors\" />
-    <Folder Include="Security\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="HtmlSanitizer" Version="8.0.601" />
   </ItemGroup>
 
   <ItemGroup>

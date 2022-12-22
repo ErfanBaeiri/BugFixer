@@ -1,22 +1,42 @@
+using System.Text.Encodings.Web;
+using System.Text.Unicode;
 using BugFixer.DataLayer.Context;
 using BugFixer.IoC;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
 
 var builder = WebApplication.CreateBuilder(args);
 
 #region Services
+
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
 #region DbContext
+
 builder.Services.AddDbContext<BugFixerDbContext>(options =>
-options.UseSqlServer(builder.Configuration.GetConnectionString("BugFixerConnection")));
+    options.UseSqlServer(builder.Configuration.GetConnectionString("BugFixerConnection"))
+);
+
 #endregion
+
+#region Encode
+
+builder.Services.AddSingleton<HtmlEncoder>(
+    HtmlEncoder.Create(allowedRanges: new[] { UnicodeRanges.All }));
+
+#endregion
+
 #region Register Dependencies
+
 DependencyContainer.RegisterDependencies(builder.Services);
+
 #endregion
+
 #endregion
 
 #region MiddleWares
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

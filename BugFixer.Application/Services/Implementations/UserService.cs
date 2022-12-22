@@ -1,13 +1,12 @@
 ﻿using BugFixer.Application.Generators;
 using BugFixer.Application.Security;
-using BugFixer.Application.Services.Interface;
+using BugFixer.Application.Services.Interfaces;
 using BugFixer.Application.Statics;
 using BugFixer.Domain.Entities.Account;
 using BugFixer.Domain.Interfaces;
 using BugFixer.Domain.ViewModels.Account;
 using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -17,7 +16,9 @@ namespace BugFixer.Application.Services.Implementations
     public class UserService : IUserService
     {
         #region Ctor
+
         private readonly IUserRepository _userRepository;
+
         public UserService(IUserRepository userRepository)
         {
             _userRepository = userRepository;
@@ -35,28 +36,31 @@ namespace BugFixer.Application.Services.Implementations
                 return RegisterResult.EmailExists;
             }
 
-            // hash password 
+            // hash password
             var password = PasswordHelper.EncodePasswordMd5(register.Password);
 
-            // Create user 
-
+            // create user
             var user = new User
             {
                 Avatar = PathTools.DefaultUserAvatar,
                 Email = register.Email.Trim().ToLower(),
                 Password = password,
-                EmailActivation = CodeGenerator.CreateActivationCode(),
-
+                EmailActivationCode = CodeGenerator.CreateActivationCode()
             };
 
-            // add To Database 
-
+            // Add To database
             await _userRepository.CreateUser(user);
             await _userRepository.Save();
 
+            #region Send Activation Email
+
+            // todo send email
+
+            #endregion
 
             return RegisterResult.Success;
         }
+
         #endregion
     }
 }

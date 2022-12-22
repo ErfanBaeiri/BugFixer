@@ -17,7 +17,7 @@ namespace BugFixer.DataLayer.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "6.0.10")
+                .HasAnnotation("ProductVersion", "6.0.0")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
@@ -42,9 +42,10 @@ namespace BugFixer.DataLayer.Migrations
 
                     b.Property<string>("Email")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
 
-                    b.Property<string>("EmailActivation")
+                    b.Property<string>("EmailActivationCode")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -58,7 +59,7 @@ namespace BugFixer.DataLayer.Migrations
                     b.Property<bool>("IsBan")
                         .HasColumnType("bit");
 
-                    b.Property<bool>("IsDeleted")
+                    b.Property<bool>("IsDelete")
                         .HasColumnType("bit");
 
                     b.Property<bool>("IsEmailConfirmed")

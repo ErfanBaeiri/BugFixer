@@ -12,14 +12,14 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BugFixer.DataLayer.Migrations
 {
     [DbContext(typeof(BugFixerDbContext))]
-    [Migration("20221028164626_AddUserModel")]
-    partial class AddUserModel
+    [Migration("20221222204805_CreateDb-And-UserTable")]
+    partial class CreateDbAndUserTable
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "6.0.10")
+                .HasAnnotation("ProductVersion", "6.0.0")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
@@ -44,9 +44,10 @@ namespace BugFixer.DataLayer.Migrations
 
                     b.Property<string>("Email")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
 
-                    b.Property<string>("EmailActivation")
+                    b.Property<string>("EmailActivationCode")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -60,7 +61,7 @@ namespace BugFixer.DataLayer.Migrations
                     b.Property<bool>("IsBan")
                         .HasColumnType("bit");
 
-                    b.Property<bool>("IsDeleted")
+                    b.Property<bool>("IsDelete")
                         .HasColumnType("bit");
 
                     b.Property<bool>("IsEmailConfirmed")

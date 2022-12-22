@@ -33,7 +33,6 @@ namespace BugFixer.DataLayer.Repositories
             await _context.AddAsync(user);
         }
 
-
         public async Task Save()
         {
             await _context.SaveChangesAsync();
